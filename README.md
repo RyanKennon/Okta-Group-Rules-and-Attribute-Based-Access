@@ -296,6 +296,237 @@
 
 ## 5) Verify Access as End Users
 
+1. In an **Incognito Window** sign in to **Marcus Hale's Okta Account**
+2. Confirm you can see the **Engineering Portal** app on the dashboard
+
+# Image 25
+
+3. Sign out of **Marcus's account** then sign in as **Dana Brooks**
+4. Confirm you can see the **Manager Reports, Remote Access Portal, and Sales CRM** apps on the dashboard
+
+# Image 26
+
+5. Sign out of **Dana's account** then sign in as **Leo Tran**
+6. Confirm you can see the **Sales CRM** app on the dashboard
+
+# Image 27
+
+7. Sign out of **Leo's account** then sign in as **Priya Shah**
+8. Confirm you can see the **Engineering Portal, Contractor Portal, and Remote Access Portal** apps on the dashboard
+
+# Image 28
+
+---
+
+## 6) Change Attributes and Confirm Automatic Access Updates
+
+1. In the **Okta Administrator Console** open the **Directory** dropdown then **People**
+2. Select **Marcus Hale** then open the **Profile** tab then click **Edit**
+3. Change the **Department** from **Engineering** to **Sales** then **Save**
+
+# Image 29
+
+4. Open **Marcus's Groups** tab and confirm **KT-Engineering** doesn't appear but **KT-Sales** appears
+
+# Image 30
+
+5. In an **Incognito Window** sign in to **Marcus Hale's Okta Account**
+6. Confirm that only the **Sales CRM** app appears on the dashboard
+
+# Image 31
+
+7. In the **Okta Administrator Console** open **Priya Shah's** profile
+8. Open the **Profile** tab then click **Edit**
+9. Change the **Employment Type** from **Contractor** to **Full Time** then **Save**
+
+# Image 32
+
+10. Open **Priya's Groups** tab and confirm that **KT-Contractors** doesn't appear but **KT-Engineering** and **KT-Remote** still appear
+
+# Image 33
+
+11. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
+12. Confirm that only the **Engineering Portal** and **Remote Access Portal** apps appear on the dashboard
+
+# Image 34
+
+13. In the **Okta Administrator Console** open **Leo Tran's** profile
+14. Open the **Profile** tab then click **Edit**
+15. Change the **Title** from **Account Executive** to **Sales Manager** then **Save**
+
+# Image 35
+
+16. Open **Leo's Groups** tab and confirm that **KT-Managers** and **KT-Sales** appear
+
+# Image 36
+
+17. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
+18. Confirm that only the **Sales CRM** and **Manager Reports** apps appear on the dashboard
+
+# Image 37
+
+19. In the **Okta Administrator Console** open the **Reports** dropdown then **System Log**
+20. Set the time range to cover today's changes
+21. Select **Advanced Filters** then enter the following filter then **Apply Filter**
+   `eventType sw "group.user_membership"`
+
+# Image 38
+
+23. Review the event from the attribute changes. The log should show four membership changes, all with **Okta System** as the actor:
+    - Marcus Hale removed from KT-Engineering and added to KT-Sales
+    - Priya Shah removed from KT-Contractors
+    - Leon Tran added to KT-Managers
+   
+# Image 39
+
+---
+
+# 7) Group Rule Behavior Checks
+
+1. In the **Okta Administrator Console** open the **Directory** dropdown then **Groups**
+2. Open **KT-Engineering** then click **Assign People**
+3. Press the **Plus** next to **Marcus Hale** then **Done**
+
+# Image 40
+
+4. Under the **Directory** dropdown select **People**
+5. Select **Marcus Hale** then open the **Profile** tab then **Edit**
+6. Change the **Title** from **Software Engineer** to **Sales Engineer** then **Save**
+
+# Image 41
+
+7. Open **Marcus's Groups** tab and confirm both the **KT-Engineering** and **KT-Sales** groups appear
+
+# Image 42
+
+8. Open the **Reports** dropdown then **System Log**
+9. Set the time range to cover today's changes
+10. Select **Advanced Filters** then enter the following filter then **Apply Filter**
+    `eventType sw "group.user_membership"`
+
+# Image 43
+
+11. Review the event from the attribute changes. The log should show one new membership changes, with **Okta System** as the actor:
+
+# Image 44
+
+12. Open the **Directory** dropdown then **Groups**
+13. Open **KT-Remote** find **Priya Shah** then remove her from the group
+
+# Image 45
+
+14. Under the **Directory** dropdown select **People**
+15. Select **Priya Shah** then open the **Profile** tab then **Edit**
+16. Change the **Title** from **QA Tester** to **QA Engineer** then **Save**
+
+# Image 46
+
+17. Open **Priya's Group** tab and confirm the **KT-Engineering** group appear
+
+# Image 47
+
+18. Open the **Reports** dropdown then **System Log**
+19. Set the time range to cover today's changes
+20. Select **Advanced Filters** then enter the following filter then **Apply Filter**
+    `eventType sw "group.user_membership"`
+
+# Image 48
+
+21. Review the event from the attribute changes. The log should show two new membership changes, with **Okta System** as the actor for one and **Ryan Kennon** as the other actor:
+
+# Image 49
+
+22. Open the **Directory** dropdown then **Groups** then open the **Rules** tab
+23. Click the **Actions** dropdowns next to **KT-Managers by Title** then choose **Deactivate**
+
+# Image 50
+
+24. Open the **All** tab then select **KT-Managers**
+25. Confirm both **Dana Brooks** and **Leo Tran** appear
+
+# Image 51
+
+26. Open the **Directory** dropdown then **People**
+27. Select **Leo Tran** then the **Profile** tab then **Edit**
+28. Change the **Title** from **Sales Manager** back to **Account Executive** then **Save**
+
+# Image 52
+
+29. Check **Leo's Group** tab and confirm both **KT-Sales** and **KT-Managers** appear
+
+# Image 53
+
+30. Under the **Directory** dropdown select **Groups** then open the **Rules** tab
+31. Open the **Actions** dropdown next to **KT-Managers by Title** then press **Activate**
+
+# Image 54
+
+32. Go back to **Leo Tran's** profile then open the **Groups** tab
+33. Confirm that only **KT-Managers** appears
+
+# Image 55
+
+34. Open the **Reports** dropdown then **System Log**
+35. Set the time range to cover today's changes
+36. Select **Advanced Filters** then enter the following filter then **Apply Filter**
+    `eventType sw "group.user_membership"`
+
+# Image 56
+
+37. Review the event from the attribute changes. The log should show two new membership changes, with **Ryan Kennon** as the actor:
+
+# Image 57
+
+---
+
+## 8) Cleanup
+
+1. Under the **Directory** dropdown select **Groups** then open the **Rules** tab
+2. Open the **Actions** dropdown next to **KT-Mangers by Title** then select **Deactivate**
+
+# Image 58
+
+3. Open the **All** tab select **KT-Managers**
+4. Confirm **Dana Brooks** still appears despite deleting the rule
+
+# Image 59
+
+5. Delete all the **Group Rules** we created in this lab
+
+# Image 60
+
+6. Under the **Directory** dropdown select **People**
+7. **Deactivate** and **Delete** all users except administrator
+
+# Image 61
+
+8. Under the **Applications and Resources** dropdown select **Applications**
+9. Click the **Contractor Portal** then select the **Active** dropdown then **Deactivate**
+10. Click the **Inactive** dropdown then **Delete**
+
+# Image 62
+
+11. Delete all the **Applications** we created in this lab
+
+# Image 62.5
+
+12. Under the **Directory** dropdown select **Groups**
+13. Open **KT-Engineering** then open the **Action** dropdown then **Delete**
+
+# Image 63
+
+14. Delete all the **Groups** we created in this lab
+
+# Image 64
+
+15. Under the **Directory** dropdown select **Profile Editor** select **User (default)**
+16. Scroll to the bottom and press the **X** next to **Employment Type** and **Work Location** to **Delete** the attributes
+
+# Image 65
+
+
+
+
 
 
 
