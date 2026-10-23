@@ -1,3 +1,8 @@
+# Header
+<p align="center">
+  
+</p>
+
 # Okta Group Rules and Attribute Based Access
 
 This lab builds attribute based access control in Okta for Kennon Technologies. Custom profile attributes and group rules place users into groups automatically, and each group grants an app, so updating a user's profile changes their access without anyone editing group membership. The lab also tests how rules handle manual group changes and rule deactivation, and traces every access change in the System Log.
@@ -72,6 +77,10 @@ Two custom attributes are added to the default user profile to track employment 
      - **Value:** Contractor
   
 # Image 1
+<p align="center">
+  
+</p>
+
 
 ### Add a Second Custom Attribute
 
@@ -90,12 +99,18 @@ Two custom attributes are added to the default user profile to track employment 
      - **Value:** Remote
     
 # Image 2
+<p align="center">
+  
+</p>
 
 ### Verify the Custom Attributes
 
 1. On the **User (default)** page scroll to the bottom to verify **Employment Type** and **Work Location** appear
 
 # Image 3
+<p align="center">
+  
+</p>
 
 ---
 
@@ -112,6 +127,9 @@ Five groups are created to represent access, and each one is assigned a Bookmark
    - **Description:** Engineering department access
 
 # Image 4
+<p align="center">
+  
+</p>
 
 3. Create more groups with the following information:
 
@@ -132,6 +150,9 @@ Five groups are created to represent access, and each one is assigned a Bookmark
      - **Description:** Remote workers access
 
 # Image 5
+<p align="center">
+  
+</p>
 
 ### Create the Bookmark App
 
@@ -142,6 +163,9 @@ Five groups are created to represent access, and each one is assigned a Bookmark
    - **URL:** https://example.com/engineering
 
 # Image 6
+<p align="center">
+  
+</p>
 
 4. Create app integration for the other four apps using the following information:
 
@@ -165,6 +189,9 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 # Image 7
 # Image 8
+<p align="center">
+  
+</p>
 
 ### Assign Each App to Its Group
 
@@ -173,6 +200,9 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 3. Next to **KT-Engineering** press **Assign** then **Done**
 
 # Image 9
+<p align="center">
+  
+</p>
 
 4. Repeat for the other 4 applications
 
@@ -199,6 +229,9 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 3. Confirm the **Engineering Portal** appears
 
 # Image 10
+<p align="center">
+  
+</p>
 
 4. Open the **KT-Sales, KT-Managers, KT-Contractors, and KT-Remote** groups and confirm the application appears
 
@@ -222,6 +255,9 @@ Four test users are created and given a mix of attribute values. Each user is se
    - **User Must Change Password on First Login:** Uncheck
 
 # Image 11
+<p align="center">
+  
+</p>
 
 3. Create 3 more people with the following information:
 
@@ -253,6 +289,9 @@ Four test users are created and given a mix of attribute values. Each user is se
      - **User Must Change Password on First Login:** Uncheck
 
 # Image 12
+<p align="center">
+  
+</p>
 
 ### Set Each User's Profile Attributes
 
@@ -266,6 +305,9 @@ Four test users are created and given a mix of attribute values. Each user is se
 
 # Image 13
 # Image 14
+<p align="center">
+  
+</p>
 
 3. Open **Dana Brooks'** profile and add the following information then **Save:**
 
@@ -276,6 +318,9 @@ Four test users are created and given a mix of attribute values. Each user is se
 
 # Image 15
 # Image 16
+<p align="center">
+  
+</p>
 
 4. Open **Leo Tran's** profile and add the following information then **Save:**
 
@@ -286,6 +331,9 @@ Four test users are created and given a mix of attribute values. Each user is se
 
 # Image 17
 # Image 18
+<p align="center">
+  
+</p>
 
 5. Open **Priya Shah's** profile and add the following information then **Save:**
 
@@ -296,6 +344,9 @@ Four test users are created and given a mix of attribute values. Each user is se
 
 # Image 19
 # Image 20
+<p align="center">
+  
+</p>
 
 ---
 
@@ -319,10 +370,16 @@ Group rules are built to place users into groups based on their attributes. The 
    - **Except:** leave empty
 
 # Image 21
+<p align="center">
+  
+</p>
 
 4. On the **Rules** page to the right of the **KT-Engineering by Department** rule open the **Actions** dropdown then **Activate**
 
 # Image 22
+<p align="center">
+  
+</p>
 
 ### Verify the Rule Membership
 
@@ -330,6 +387,9 @@ Group rules are built to place users into groups based on their attributes. The 
 2. Confirm **Marcus Hale** and **Priya Shah** appear
 
 # Image 23
+<p align="center">
+  
+</p>
 
 ### Create the Remaining Group Rules
 
@@ -373,6 +433,9 @@ Group rules are built to place users into groups based on their attributes. The 
       - **Except:** leave empty
 
 # Image 24
+<p align="center">
+  
+</p>
 
 ---
 
@@ -386,21 +449,33 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 2. Confirm you can see the **Engineering Portal** app on the dashboard
 
 # Image 25
+<p align="center">
+  
+</p>
 
 3. Sign out of **Marcus's account** then sign in as **Dana Brooks**
 4. Confirm you can see the **Manager Reports, Remote Access Portal, and Sales CRM** apps on the dashboard
 
 # Image 26
+<p align="center">
+  
+</p>
 
 5. Sign out of **Dana's account** then sign in as **Leo Tran**
 6. Confirm you can see the **Sales CRM** app on the dashboard
 
 # Image 27
+<p align="center">
+  
+</p>
 
 7. Sign out of **Leo's account** then sign in as **Priya Shah**
 8. Confirm you can see the **Engineering Portal, Contractor Portal, and Remote Access Portal** apps on the dashboard
 
 # Image 28
+<p align="center">
+  
+</p>
 
 ---
 
@@ -415,17 +490,26 @@ User attributes are changed to simulate department moves, employment changes, an
 3. Change the **Department** from **Engineering** to **Sales** then **Save**
 
 # Image 29
+<p align="center">
+  
+</p>
 
 ### Verify the Department Change
 
 1. Open **Marcus's Groups** tab and confirm **KT-Engineering** doesn't appear but **KT-Sales** appears
 
 # Image 30
+<p align="center">
+  
+</p>
 
 2. In an **Incognito Window** sign in to **Marcus Hale's Okta Account**
 3. Confirm that only the **Sales CRM** app appears on the dashboard
 
 # Image 31
+<p align="center">
+  
+</p>
 
 ### Change a User's Employment Type
 
@@ -434,17 +518,26 @@ User attributes are changed to simulate department moves, employment changes, an
 3. Change the **Employment Type** from **Contractor** to **Full Time** then **Save**
 
 # Image 32
+<p align="center">
+  
+</p>
 
 ### Verify the Employment Type Change
 
 1. Open **Priya's Groups** tab and confirm that **KT-Contractors** doesn't appear but **KT-Engineering** and **KT-Remote** still appear
 
 # Image 33
+<p align="center">
+  
+</p>
 
 2. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
 3. Confirm that only the **Engineering Portal** and **Remote Access Portal** apps appear on the dashboard
 
 # Image 34
+<p align="center">
+  
+</p>
 
 ### Change a User's Title
 
@@ -453,17 +546,26 @@ User attributes are changed to simulate department moves, employment changes, an
 3. Change the **Title** from **Account Executive** to **Sales Manager** then **Save**
 
 # Image 35
+<p align="center">
+  
+</p>
 
 ### Verify the Title Change
 
 1. Open **Leo's Groups** tab and confirm that **KT-Managers** and **KT-Sales** appear
 
 # Image 36
+<p align="center">
+  
+</p>
 
 2. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
 3. Confirm that only the **Sales CRM** and **Manager Reports** apps appear on the dashboard
 
 # Image 37
+<p align="center">
+  
+</p>
 
 ### Review the Changes in the System Log
 
@@ -473,6 +575,9 @@ User attributes are changed to simulate department moves, employment changes, an
    `eventType sw "group.user_membership"`
 
 # Image 38
+<p align="center">
+  
+</p>
 
 4. Review the event from the attribute changes. The log should show four membership changes, all with **Okta System** as the actor:
     - Marcus Hale removed from KT-Engineering and added to KT-Sales
@@ -480,6 +585,9 @@ User attributes are changed to simulate department moves, employment changes, an
     - Leon Tran added to KT-Managers
    
 # Image 39
+<p align="center">
+  
+</p>
 
 ---
 
@@ -494,18 +602,27 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 3. Press the **Plus** next to **Marcus Hale** then **Done**
 
 # Image 40
+<p align="center">
+  
+</p>
 
 4. Under the **Directory** dropdown select **People**
 5. Select **Marcus Hale** then open the **Profile** tab then **Edit**
 6. Change the **Title** from **Software Engineer** to **Sales Engineer** then **Save**
 
 # Image 41
+<p align="center">
+  
+</p>
 
 ### Verify Manual Assignments Persist
 
 1. Open **Marcus's Groups** tab and confirm both the **KT-Engineering** and **KT-Sales** groups appear
 
 # Image 42
+<p align="center">
+  
+</p>
 
 2. Open the **Reports** dropdown then **System Log**
 3. Set the time range to cover today's changes
@@ -513,10 +630,16 @@ This phase tests how group rules treat manual group changes and rule deactivatio
     `eventType sw "group.user_membership"`
 
 # Image 43
+<p align="center">
+  
+</p>
 
 5. Review the event from the attribute changes. The log should show one new membership changes, with **Okta System** as the actor:
 
 # Image 44
+<p align="center">
+  
+</p>
 
 ### Manual Group Removals
 
@@ -524,18 +647,27 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 2. Open **KT-Remote** find **Priya Shah** then remove her from the group
 
 # Image 45
+<p align="center">
+  
+</p>
 
 3. Under the **Directory** dropdown select **People**
 4. Select **Priya Shah** then open the **Profile** tab then **Edit**
 5. Change the **Title** from **QA Tester** to **QA Engineer** then **Save**
 
 # Image 46
+<p align="center">
+  
+</p>
 
 ### Verify the Rule Exclusion
 
 1. Open **Priya's Group** tab and confirm the **KT-Engineering** group appear
 
 # Image 47
+<p align="center">
+  
+</p>
 
 2. Open the **Reports** dropdown then **System Log**
 3. Set the time range to cover today's changes
@@ -543,10 +675,16 @@ This phase tests how group rules treat manual group changes and rule deactivatio
     `eventType sw "group.user_membership"`
 
 # Image 48
+<p align="center">
+  
+</p>
 
 5. Review the event from the attribute changes. The log should show two new membership changes, with **Okta System** as the actor for one and **Ryan Kennon** as the other actor:
 
 # Image 49
+<p align="center">
+  
+</p>
 
 ### Rule Deactivation and Reactivation
 
@@ -554,26 +692,41 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 2. Click the **Actions** dropdowns next to **KT-Managers by Title** then choose **Deactivate**
 
 # Image 50
+<p align="center">
+  
+</p>
 
 3. Open the **All** tab then select **KT-Managers**
 4. Confirm both **Dana Brooks** and **Leo Tran** appear
 
 # Image 51
+<p align="center">
+  
+</p>
 
 5. Open the **Directory** dropdown then **People**
 6. Select **Leo Tran** then the **Profile** tab then **Edit**
 7. Change the **Title** from **Sales Manager** back to **Account Executive** then **Save**
 
 # Image 52
+<p align="center">
+  
+</p>
 
 8. Check **Leo's Group** tab and confirm both **KT-Sales** and **KT-Managers** appear
 
 # Image 53
+<p align="center">
+  
+</p>
 
 9. Under the **Directory** dropdown select **Groups** then open the **Rules** tab
 10. Open the **Actions** dropdown next to **KT-Managers by Title** then press **Activate**
 
 # Image 54
+<p align="center">
+  
+</p>
 
 ### Verify Reactivation Reevaluates Member
 
@@ -581,6 +734,9 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 2. Confirm that only **KT-Managers** appears
 
 # Image 55
+<p align="center">
+  
+</p>
 
 3. Open the **Reports** dropdown then **System Log**
 4. Set the time range to cover today's changes
@@ -588,10 +744,16 @@ This phase tests how group rules treat manual group changes and rule deactivatio
     `eventType sw "group.user_membership"`
 
 # Image 56
+<p align="center">
+  
+</p>
 
 6. Review the event from the attribute changes. The log should show two new membership changes, with **Ryan Kennon** as the actor:
 
 # Image 57
+<p align="center">
+  
+</p>
 
 ---
 
@@ -605,15 +767,24 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 2. Open the **Actions** dropdown next to **KT-Mangers by Title** then select **Deactivate**
 
 # Image 58
+<p align="center">
+  
+</p>
 
 3. Open the **All** tab select **KT-Managers**
 4. Confirm **Dana Brooks** still appears despite deleting the rule
 
 # Image 59
+<p align="center">
+  
+</p>
 
 5. Delete all the **Group Rules** we created in this lab
 
 # Image 60
+<p align="center">
+  
+</p>
 
 ### Deactivate and Delete the Test Users
 
@@ -621,6 +792,9 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 2. **Deactivate** and **Delete** all users except administrator
 
 # Image 61
+<p align="center">
+  
+</p>
 
 ### Deactivate and Delete the Bookmark Apps
 
@@ -629,10 +803,16 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 3. Click the **Inactive** dropdown then **Delete**
 
 # Image 62
+<p align="center">
+  
+</p>
 
 4. Delete all the **Applications** we created in this lab
 
 # Image 62.5
+<p align="center">
+  
+</p>
 
 ### Delete the Groups
 
@@ -640,10 +820,16 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 2. Open **KT-Engineering** then open the **Action** dropdown then **Delete**
 
 # Image 63
+<p align="center">
+  
+</p>
 
 3. Delete all the **Groups** we created in this lab
 
 # Image 64
+<p align="center">
+  
+</p>
 
 ### Remove the Custom Attributes
 
@@ -651,6 +837,9 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 2. Scroll to the bottom and press the **X** next to **Employment Type** and **Work Location** to **Delete** the attributes
 
 # Image 65
+<p align="center">
+  
+</p>
 
 ---
 
