@@ -1,4 +1,3 @@
-# Header
 <p align="center">
   <img src="Images/Header.png" alt="Okta Group Rules and Attribute Based Access">
 </p>
@@ -76,7 +75,6 @@ Two custom attributes are added to the default user profile to track employment 
      - **Display Name:** Contractor
      - **Value:** Contractor
   
-# Image 1
 <p align="center">
   <img src="Images/Image%201.PNG" alt="Image 1">
 </p>
@@ -98,7 +96,6 @@ Two custom attributes are added to the default user profile to track employment 
      - **Display Name:** Remote
      - **Value:** Remote
     
-# Image 2
 <p align="center">
   <img src="Images/Image%202.PNG" alt="Image 2">
 </p>
@@ -107,7 +104,6 @@ Two custom attributes are added to the default user profile to track employment 
 
 1. On the **User (default)** page scroll to the bottom to verify **Employment Type** and **Work Location** appear
 
-# Image 3
 <p align="center">
   <img src="Images/Image%203.PNG" alt="Image 3">
 </p>
@@ -126,7 +122,6 @@ Five groups are created to represent access, and each one is assigned a Bookmark
    - **Name:** KT-Engineering
    - **Description:** Engineering department access
 
-# Image 4
 <p align="center">
   <img src="Images/Image%204.PNG" alt="Image 4">
 </p>
@@ -149,7 +144,6 @@ Five groups are created to represent access, and each one is assigned a Bookmark
      - **Name:** KT-Remote
      - **Description:** Remote workers access
 
-# Image 5
 <p align="center">
   <img src="Images/Image%205.PNG" alt="Image 5">
 </p>
@@ -162,7 +156,6 @@ Five groups are created to represent access, and each one is assigned a Bookmark
    - **Application Label:** Engineering Portal
    - **URL:** https://example.com/engineering
 
-# Image 6
 <p align="center">
   <img src="Images/Image%206.PNG" alt="Image 6">
 </p>
@@ -187,8 +180,6 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 5. Open the **Applications** page then confirm all five apps appear
 
-# Image 7
-# Image 8
 <p align="center">
   <img src="Images/Image%207.PNG" alt="Image 7">
   <img src="Images/Image%208.PNG" alt="Image 8">
@@ -200,7 +191,6 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 2. Open the **Assignments** tab then open the **Assign** dropdown then select **Assign to Groups**
 3. Next to **KT-Engineering** press **Assign** then **Done**
 
-# Image 9
 <p align="center">
   <img src="Images/Image%209.PNG" alt="Image 9">
 </p>
@@ -229,7 +219,6 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 2. Select **KT-Engineering** then open the **Applications** tab
 3. Confirm the **Engineering Portal** appears
 
-# Image 10
 <p align="center">
   <img src="Images/Image%2010.PNG" alt="Image 10">
 </p>
@@ -255,7 +244,6 @@ Four test users are created and given a mix of attribute values. Each user is se
    - **Password:** <Create a Password>
    - **User Must Change Password on First Login:** Uncheck
 
-# Image 11
 <p align="center">
   <img src="Images/Image%2011.PNG" alt="Image 11">
 </p>
@@ -289,7 +277,6 @@ Four test users are created and given a mix of attribute values. Each user is se
      - **Password:** <Create a Password>
      - **User Must Change Password on First Login:** Uncheck
 
-# Image 12
 <p align="center">
   <img src="Images/Image%2012.PNG" alt="Image 12">
 </p>
@@ -304,8 +291,6 @@ Four test users are created and given a mix of attribute values. Each user is se
    - **Employment Type:** Full Time
    - **Work Location:** Fort Worth Office
 
-# Image 13
-# Image 14
 <p align="center">
   <img src="Images/Image%2013.PNG" alt="Image 13">
   <img src="Images/Image%2014.PNG" alt="Image 14">
@@ -318,8 +303,6 @@ Four test users are created and given a mix of attribute values. Each user is se
    - **Employment Type:** Full Time
    - **Work Location:** Remote
 
-# Image 15
-# Image 16
 <p align="center">
   <img src="Images/Image%2015.PNG" alt="Image 15">
   <img src="Images/Image%2016.PNG" alt="Image 16">
@@ -332,8 +315,6 @@ Four test users are created and given a mix of attribute values. Each user is se
    - **Employment Type:** Full Time
    - **Work Location:** Fort Worth Office
 
-# Image 17
-# Image 18
 <p align="center">
   <img src="Images/Image%2017.PNG" alt="Image 17">
   <img src="Images/Image%2018.PNG" alt="Image 18">
@@ -346,8 +327,6 @@ Four test users are created and given a mix of attribute values. Each user is se
    - **Employment Type:** Contractor
    - **Work Location:** Remote
 
-# Image 19
-# Image 20
 <p align="center">
   <img src="Images/Image%2019.PNG" alt="Image 19">
   <img src="Images/Image%2020.PNG" alt="Image 20">
@@ -374,14 +353,12 @@ Group rules are built to place users into groups based on their attributes. The 
    - **THEN Assign to:** KT-Engineering
    - **Except:** leave empty
 
-# Image 21
 <p align="center">
   <img src="Images/Image%2021.PNG" alt="Image 21">
 </p>
 
 4. On the **Rules** page to the right of the **KT-Engineering by Department** rule open the **Actions** dropdown then **Activate**
 
-# Image 22
 <p align="center">
   <img src="Images/Image%2022.PNG" alt="Image 22">
 </p>
@@ -391,7 +368,6 @@ Group rules are built to place users into groups based on their attributes. The 
 1. Open the **All** tab then select **KT-Engineering**
 2. Confirm **Marcus Hale** and **Priya Shah** appear
 
-# Image 23
 <p align="center">
   <img src="Images/Image%2023.PNG" alt="Image 23">
 </p>
@@ -437,7 +413,6 @@ Group rules are built to place users into groups based on their attributes. The 
       - **THEN Assign to:** KT-Managers
       - **Except:** leave empty
 
-# Image 24
 <p align="center">
   <img src="Images/Image%2024.PNG" alt="Image 24">
 </p>
@@ -453,7 +428,6 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 1. In an **Incognito Window** sign in to **Marcus Hale's Okta Account**
 2. Confirm you can see the **Engineering Portal** app on the dashboard
 
-# Image 25
 <p align="center">
   <img src="Images/Image%2025.PNG" alt="Image 25">
 </p>
@@ -461,7 +435,6 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 3. Sign out of **Marcus's account** then sign in as **Dana Brooks**
 4. Confirm you can see the **Manager Reports, Remote Access Portal, and Sales CRM** apps on the dashboard
 
-# Image 26
 <p align="center">
   <img src="Images/Image%2026.PNG" alt="Image 26">
 </p>
@@ -469,7 +442,6 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 5. Sign out of **Dana's account** then sign in as **Leo Tran**
 6. Confirm you can see the **Sales CRM** app on the dashboard
 
-# Image 27
 <p align="center">
   <img src="Images/Image%2027.PNG" alt="Image 27">
 </p>
@@ -477,7 +449,6 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 7. Sign out of **Leo's account** then sign in as **Priya Shah**
 8. Confirm you can see the **Engineering Portal, Contractor Portal, and Remote Access Portal** apps on the dashboard
 
-# Image 28
 <p align="center">
   <img src="Images/Image%2028.PNG" alt="Image 28">
 </p>
@@ -494,7 +465,6 @@ User attributes are changed to simulate department moves, employment changes, an
 2. Select **Marcus Hale** then open the **Profile** tab then click **Edit**
 3. Change the **Department** from **Engineering** to **Sales** then **Save**
 
-# Image 29
 <p align="center">
   <img src="Images/Image%2029.PNG" alt="Image 29">
 </p>
@@ -503,7 +473,6 @@ User attributes are changed to simulate department moves, employment changes, an
 
 1. Open **Marcus's Groups** tab and confirm **KT-Engineering** doesn't appear but **KT-Sales** appears
 
-# Image 30
 <p align="center">
   <img src="Images/Image%2030.PNG" alt="Image 30">
 </p>
@@ -511,7 +480,6 @@ User attributes are changed to simulate department moves, employment changes, an
 2. In an **Incognito Window** sign in to **Marcus Hale's Okta Account**
 3. Confirm that only the **Sales CRM** app appears on the dashboard
 
-# Image 31
 <p align="center">
   <img src="Images/Image%2031.PNG" alt="Image 31">
 </p>
@@ -522,7 +490,6 @@ User attributes are changed to simulate department moves, employment changes, an
 2. Open the **Profile** tab then click **Edit**
 3. Change the **Employment Type** from **Contractor** to **Full Time** then **Save**
 
-# Image 32
 <p align="center">
   <img src="Images/Image%2032.PNG" alt="Image 32">
 </p>
@@ -531,7 +498,6 @@ User attributes are changed to simulate department moves, employment changes, an
 
 1. Open **Priya's Groups** tab and confirm that **KT-Contractors** doesn't appear but **KT-Engineering** and **KT-Remote** still appear
 
-# Image 33
 <p align="center">
   <img src="Images/Image%2033.PNG" alt="Image 33">
 </p>
@@ -539,7 +505,6 @@ User attributes are changed to simulate department moves, employment changes, an
 2. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
 3. Confirm that only the **Engineering Portal** and **Remote Access Portal** apps appear on the dashboard
 
-# Image 34
 <p align="center">
   <img src="Images/Image%2034.PNG" alt="Image 34">
 </p>
@@ -550,7 +515,6 @@ User attributes are changed to simulate department moves, employment changes, an
 2. Open the **Profile** tab then click **Edit**
 3. Change the **Title** from **Account Executive** to **Sales Manager** then **Save**
 
-# Image 35
 <p align="center">
   <img src="Images/Image%2035.PNG" alt="Image 35">
 </p>
@@ -559,7 +523,6 @@ User attributes are changed to simulate department moves, employment changes, an
 
 1. Open **Leo's Groups** tab and confirm that **KT-Managers** and **KT-Sales** appear
 
-# Image 36
 <p align="center">
   <img src="Images/Image%2036.PNG" alt="Image 36">
 </p>
@@ -567,7 +530,6 @@ User attributes are changed to simulate department moves, employment changes, an
 2. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
 3. Confirm that only the **Sales CRM** and **Manager Reports** apps appear on the dashboard
 
-# Image 37
 <p align="center">
   <img src="Images/Image%2037.PNG" alt="Image 37">
 </p>
@@ -579,7 +541,6 @@ User attributes are changed to simulate department moves, employment changes, an
 3. Select **Advanced Filters** then enter the following filter then **Apply Filter**
    `eventType sw "group.user_membership"`
 
-# Image 38
 <p align="center">
   <img src="Images/Image%2038.PNG" alt="Image 38">
 </p>
@@ -589,7 +550,6 @@ User attributes are changed to simulate department moves, employment changes, an
     - Priya Shah removed from KT-Contractors
     - Leon Tran added to KT-Managers
    
-# Image 39
 <p align="center">
   <img src="Images/Image%2039.PNG" alt="Image 39">
 </p>
@@ -606,7 +566,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 2. Open **KT-Engineering** then click **Assign People**
 3. Press the **Plus** next to **Marcus Hale** then **Done**
 
-# Image 40
 <p align="center">
   <img src="Images/Image%2040.PNG" alt="Image 40">
 </p>
@@ -615,7 +574,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 5. Select **Marcus Hale** then open the **Profile** tab then **Edit**
 6. Change the **Title** from **Software Engineer** to **Sales Engineer** then **Save**
 
-# Image 41
 <p align="center">
   <img src="Images/Image%2041.PNG" alt="Image 41">
 </p>
@@ -624,7 +582,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 1. Open **Marcus's Groups** tab and confirm both the **KT-Engineering** and **KT-Sales** groups appear
 
-# Image 42
 <p align="center">
   <img src="Images/Image%2042.PNG" alt="Image 42">
 </p>
@@ -634,14 +591,12 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 4. Select **Advanced Filters** then enter the following filter then **Apply Filter**
     `eventType sw "group.user_membership"`
 
-# Image 43
 <p align="center">
   <img src="Images/Image%2043.PNG" alt="Image 43">
 </p>
 
 5. Review the event from the attribute changes. The log should show one new membership changes, with **Okta System** as the actor:
 
-# Image 44
 <p align="center">
   <img src="Images/Image%2044.PNG" alt="Image 44">
 </p>
@@ -651,7 +606,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 1. Open the **Directory** dropdown then **Groups**
 2. Open **KT-Remote** find **Priya Shah** then remove her from the group
 
-# Image 45
 <p align="center">
   <img src="Images/Image%2045.PNG" alt="Image 45">
 </p>
@@ -660,7 +614,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 4. Select **Priya Shah** then open the **Profile** tab then **Edit**
 5. Change the **Title** from **QA Tester** to **QA Engineer** then **Save**
 
-# Image 46
 <p align="center">
   <img src="Images/Image%2046.PNG" alt="Image 46">
 </p>
@@ -669,7 +622,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 1. Open **Priya's Group** tab and confirm the **KT-Engineering** group appear
 
-# Image 47
 <p align="center">
   <img src="Images/Image%2047.PNG" alt="Image 47">
 </p>
@@ -679,14 +631,12 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 4. Select **Advanced Filters** then enter the following filter then **Apply Filter**
     `eventType sw "group.user_membership"`
 
-# Image 48
 <p align="center">
   <img src="Images/Image%2048.PNG" alt="Image 48">
 </p>
 
 5. Review the event from the attribute changes. The log should show two new membership changes, with **Okta System** as the actor for one and **Ryan Kennon** as the other actor:
 
-# Image 49
 <p align="center">
   <img src="Images/Image%2049.PNG" alt="Image 49">
 </p>
@@ -696,7 +646,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 1. Open the **Directory** dropdown then **Groups** then open the **Rules** tab
 2. Click the **Actions** dropdowns next to **KT-Managers by Title** then choose **Deactivate**
 
-# Image 50
 <p align="center">
   <img src="Images/Image%2050.PNG" alt="Image 50">
 </p>
@@ -704,7 +653,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 3. Open the **All** tab then select **KT-Managers**
 4. Confirm both **Dana Brooks** and **Leo Tran** appear
 
-# Image 51
 <p align="center">
   <img src="Images/Image%2051.PNG" alt="Image 51">
 </p>
@@ -713,14 +661,12 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 6. Select **Leo Tran** then the **Profile** tab then **Edit**
 7. Change the **Title** from **Sales Manager** back to **Account Executive** then **Save**
 
-# Image 52
 <p align="center">
   <img src="Images/Image%2052.PNG" alt="Image 52">
 </p>
 
 8. Check **Leo's Group** tab and confirm both **KT-Sales** and **KT-Managers** appear
 
-# Image 53
 <p align="center">
   <img src="Images/Image%2053.PNG" alt="Image 53">
 </p>
@@ -728,7 +674,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 9. Under the **Directory** dropdown select **Groups** then open the **Rules** tab
 10. Open the **Actions** dropdown next to **KT-Managers by Title** then press **Activate**
 
-# Image 54
 <p align="center">
   <img src="Images/Image%2054.PNG" alt="Image 54">
 </p>
@@ -738,7 +683,6 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 1. Go back to **Leo Tran's** profile then open the **Groups** tab
 2. Confirm that only **KT-Managers** appears
 
-# Image 55
 <p align="center">
   <img src="Images/Image%2055.PNG" alt="Image 55">
 </p>
@@ -748,14 +692,12 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 5. Select **Advanced Filters** then enter the following filter then **Apply Filter**
     `eventType sw "group.user_membership"`
 
-# Image 56
 <p align="center">
   <img src="Images/Image%2056.PNG" alt="Image 56">
 </p>
 
 6. Review the event from the attribute changes. The log should show two new membership changes, with **Ryan Kennon** as the actor:
 
-# Image 57
 <p align="center">
   <img src="Images/Image%2057.PNG" alt="Image 57">
 </p>
@@ -771,7 +713,6 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 1. Under the **Directory** dropdown select **Groups** then open the **Rules** tab
 2. Open the **Actions** dropdown next to **KT-Mangers by Title** then select **Deactivate**
 
-# Image 58
 <p align="center">
   <img src="Images/Image%2058.PNG" alt="Image 58">
 </p>
@@ -779,14 +720,12 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 3. Open the **All** tab select **KT-Managers**
 4. Confirm **Dana Brooks** still appears despite deleting the rule
 
-# Image 59
 <p align="center">
   <img src="Images/Image%2059.PNG" alt="Image 59">
 </p>
 
 5. Delete all the **Group Rules** we created in this lab
 
-# Image 60
 <p align="center">
   <img src="Images/Image%2060.PNG" alt="Image 60">
 </p>
@@ -796,7 +735,6 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 1. Under the **Directory** dropdown select **People**
 2. **Deactivate** and **Delete** all users except administrator
 
-# Image 61
 <p align="center">
   <img src="Images/Image%2061.PNG" alt="Image 61">
 </p>
@@ -807,14 +745,12 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 2. Click the **Contractor Portal** then select the **Active** dropdown then **Deactivate**
 3. Click the **Inactive** dropdown then **Delete**
 
-# Image 62
 <p align="center">
   <img src="Images/Image%2062.PNG" alt="Image 62">
 </p>
 
 4. Delete all the **Applications** we created in this lab
 
-# Image 62.5
 <p align="center">
   <img src="Images/Image%2062.5.PNG" alt="Image 62.5">
 </p>
@@ -824,14 +760,12 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 1. Under the **Directory** dropdown select **Groups**
 2. Open **KT-Engineering** then open the **Action** dropdown then **Delete**
 
-# Image 63
 <p align="center">
   <img src="Images/Image%2063.PNG" alt="Image 63">
 </p>
 
 3. Delete all the **Groups** we created in this lab
 
-# Image 64
 <p align="center">
   <img src="Images/Image%2064.PNG" alt="Image 64">
 </p>
@@ -841,7 +775,6 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 1. Under the **Directory** dropdown select **Profile Editor** select **User (default)**
 2. Scroll to the bottom and press the **X** next to **Employment Type** and **Work Location** to **Delete** the attributes
 
-# Image 65
 <p align="center">
   <img src="Images/Image%2065.PNG" alt="Image 65">
 </p>
