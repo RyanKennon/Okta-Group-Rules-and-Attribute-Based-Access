@@ -1,6 +1,6 @@
 # Header
 <p align="center">
-  
+  <img src="Images/Header.png" alt="Okta Group Rules and Attribute Based Access">
 </p>
 
 # Okta Group Rules and Attribute Based Access
@@ -78,7 +78,7 @@ Two custom attributes are added to the default user profile to track employment 
   
 # Image 1
 <p align="center">
-  
+  <img src="Images/Image%201.PNG" alt="Image 1">
 </p>
 
 
@@ -100,7 +100,7 @@ Two custom attributes are added to the default user profile to track employment 
     
 # Image 2
 <p align="center">
-  
+  <img src="Images/Image%202.PNG" alt="Image 2">
 </p>
 
 ### Verify the Custom Attributes
@@ -109,7 +109,7 @@ Two custom attributes are added to the default user profile to track employment 
 
 # Image 3
 <p align="center">
-  
+  <img src="Images/Image%203.PNG" alt="Image 3">
 </p>
 
 ---
@@ -128,7 +128,7 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 # Image 4
 <p align="center">
-  
+  <img src="Images/Image%204.PNG" alt="Image 4">
 </p>
 
 3. Create more groups with the following information:
@@ -151,7 +151,7 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 # Image 5
 <p align="center">
-  
+  <img src="Images/Image%205.PNG" alt="Image 5">
 </p>
 
 ### Create the Bookmark App
@@ -164,7 +164,7 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 # Image 6
 <p align="center">
-  
+  <img src="Images/Image%206.PNG" alt="Image 6">
 </p>
 
 4. Create app integration for the other four apps using the following information:
@@ -190,7 +190,8 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 # Image 7
 # Image 8
 <p align="center">
-  
+  <img src="Images/Image%207.PNG" alt="Image 7">
+  <img src="Images/Image%208.PNG" alt="Image 8">
 </p>
 
 ### Assign Each App to Its Group
@@ -201,7 +202,7 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 # Image 9
 <p align="center">
-  
+  <img src="Images/Image%209.PNG" alt="Image 9">
 </p>
 
 4. Repeat for the other 4 applications
@@ -230,7 +231,7 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 # Image 10
 <p align="center">
-  
+  <img src="Images/Image%2010.PNG" alt="Image 10">
 </p>
 
 4. Open the **KT-Sales, KT-Managers, KT-Contractors, and KT-Remote** groups and confirm the application appears
@@ -256,7 +257,7 @@ Four test users are created and given a mix of attribute values. Each user is se
 
 # Image 11
 <p align="center">
-  
+  <img src="Images/Image%2011.PNG" alt="Image 11">
 </p>
 
 3. Create 3 more people with the following information:
@@ -290,7 +291,7 @@ Four test users are created and given a mix of attribute values. Each user is se
 
 # Image 12
 <p align="center">
-  
+  <img src="Images/Image%2012.PNG" alt="Image 12">
 </p>
 
 ### Set Each User's Profile Attributes
@@ -306,7 +307,8 @@ Four test users are created and given a mix of attribute values. Each user is se
 # Image 13
 # Image 14
 <p align="center">
-  
+  <img src="Images/Image%2013.PNG" alt="Image 13">
+  <img src="Images/Image%2014.PNG" alt="Image 14">
 </p>
 
 3. Open **Dana Brooks'** profile and add the following information then **Save:**
@@ -319,7 +321,8 @@ Four test users are created and given a mix of attribute values. Each user is se
 # Image 15
 # Image 16
 <p align="center">
-  
+  <img src="Images/Image%2015.PNG" alt="Image 15">
+  <img src="Images/Image%2016.PNG" alt="Image 16">
 </p>
 
 4. Open **Leo Tran's** profile and add the following information then **Save:**
@@ -332,7 +335,8 @@ Four test users are created and given a mix of attribute values. Each user is se
 # Image 17
 # Image 18
 <p align="center">
-  
+  <img src="Images/Image%2017.PNG" alt="Image 17">
+  <img src="Images/Image%2018.PNG" alt="Image 18">
 </p>
 
 5. Open **Priya Shah's** profile and add the following information then **Save:**
@@ -345,7 +349,8 @@ Four test users are created and given a mix of attribute values. Each user is se
 # Image 19
 # Image 20
 <p align="center">
-  
+  <img src="Images/Image%2019.PNG" alt="Image 19">
+  <img src="Images/Image%2020.PNG" alt="Image 20">
 </p>
 
 ---
@@ -371,14 +376,14 @@ Group rules are built to place users into groups based on their attributes. The 
 
 # Image 21
 <p align="center">
-  
+  <img src="Images/Image%2021.PNG" alt="Image 21">
 </p>
 
 4. On the **Rules** page to the right of the **KT-Engineering by Department** rule open the **Actions** dropdown then **Activate**
 
 # Image 22
 <p align="center">
-  
+  <img src="Images/Image%2022.PNG" alt="Image 22">
 </p>
 
 ### Verify the Rule Membership
@@ -388,7 +393,7 @@ Group rules are built to place users into groups based on their attributes. The 
 
 # Image 23
 <p align="center">
-  
+  <img src="Images/Image%2023.PNG" alt="Image 23">
 </p>
 
 ### Create the Remaining Group Rules
@@ -434,7 +439,7 @@ Group rules are built to place users into groups based on their attributes. The 
 
 # Image 24
 <p align="center">
-  
+  <img src="Images/Image%2024.PNG" alt="Image 24">
 </p>
 
 ---
@@ -450,7 +455,7 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 
 # Image 25
 <p align="center">
-  
+  <img src="Images/Image%2025.PNG" alt="Image 25">
 </p>
 
 3. Sign out of **Marcus's account** then sign in as **Dana Brooks**
@@ -458,7 +463,7 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 
 # Image 26
 <p align="center">
-  
+  <img src="Images/Image%2026.PNG" alt="Image 26">
 </p>
 
 5. Sign out of **Dana's account** then sign in as **Leo Tran**
@@ -466,7 +471,7 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 
 # Image 27
 <p align="center">
-  
+  <img src="Images/Image%2027.PNG" alt="Image 27">
 </p>
 
 7. Sign out of **Leo's account** then sign in as **Priya Shah**
@@ -474,7 +479,7 @@ Each test user signs in to confirm their dashboard shows only the apps their att
 
 # Image 28
 <p align="center">
-  
+  <img src="Images/Image%2028.PNG" alt="Image 28">
 </p>
 
 ---
@@ -491,7 +496,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 29
 <p align="center">
-  
+  <img src="Images/Image%2029.PNG" alt="Image 29">
 </p>
 
 ### Verify the Department Change
@@ -500,7 +505,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 30
 <p align="center">
-  
+  <img src="Images/Image%2030.PNG" alt="Image 30">
 </p>
 
 2. In an **Incognito Window** sign in to **Marcus Hale's Okta Account**
@@ -508,7 +513,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 31
 <p align="center">
-  
+  <img src="Images/Image%2031.PNG" alt="Image 31">
 </p>
 
 ### Change a User's Employment Type
@@ -519,7 +524,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 32
 <p align="center">
-  
+  <img src="Images/Image%2032.PNG" alt="Image 32">
 </p>
 
 ### Verify the Employment Type Change
@@ -528,7 +533,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 33
 <p align="center">
-  
+  <img src="Images/Image%2033.PNG" alt="Image 33">
 </p>
 
 2. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
@@ -536,7 +541,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 34
 <p align="center">
-  
+  <img src="Images/Image%2034.PNG" alt="Image 34">
 </p>
 
 ### Change a User's Title
@@ -547,7 +552,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 35
 <p align="center">
-  
+  <img src="Images/Image%2035.PNG" alt="Image 35">
 </p>
 
 ### Verify the Title Change
@@ -556,7 +561,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 36
 <p align="center">
-  
+  <img src="Images/Image%2036.PNG" alt="Image 36">
 </p>
 
 2. In an **Incognito Window** sign in to **Priya Shah's Okta Account**
@@ -564,7 +569,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 37
 <p align="center">
-  
+  <img src="Images/Image%2037.PNG" alt="Image 37">
 </p>
 
 ### Review the Changes in the System Log
@@ -576,7 +581,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 # Image 38
 <p align="center">
-  
+  <img src="Images/Image%2038.PNG" alt="Image 38">
 </p>
 
 4. Review the event from the attribute changes. The log should show four membership changes, all with **Okta System** as the actor:
@@ -586,7 +591,7 @@ User attributes are changed to simulate department moves, employment changes, an
    
 # Image 39
 <p align="center">
-  
+  <img src="Images/Image%2039.PNG" alt="Image 39">
 </p>
 
 ---
@@ -603,7 +608,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 40
 <p align="center">
-  
+  <img src="Images/Image%2040.PNG" alt="Image 40">
 </p>
 
 4. Under the **Directory** dropdown select **People**
@@ -612,7 +617,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 41
 <p align="center">
-  
+  <img src="Images/Image%2041.PNG" alt="Image 41">
 </p>
 
 ### Verify Manual Assignments Persist
@@ -621,7 +626,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 42
 <p align="center">
-  
+  <img src="Images/Image%2042.PNG" alt="Image 42">
 </p>
 
 2. Open the **Reports** dropdown then **System Log**
@@ -631,14 +636,14 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 43
 <p align="center">
-  
+  <img src="Images/Image%2043.PNG" alt="Image 43">
 </p>
 
 5. Review the event from the attribute changes. The log should show one new membership changes, with **Okta System** as the actor:
 
 # Image 44
 <p align="center">
-  
+  <img src="Images/Image%2044.PNG" alt="Image 44">
 </p>
 
 ### Manual Group Removals
@@ -648,7 +653,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 45
 <p align="center">
-  
+  <img src="Images/Image%2045.PNG" alt="Image 45">
 </p>
 
 3. Under the **Directory** dropdown select **People**
@@ -657,7 +662,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 46
 <p align="center">
-  
+  <img src="Images/Image%2046.PNG" alt="Image 46">
 </p>
 
 ### Verify the Rule Exclusion
@@ -666,7 +671,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 47
 <p align="center">
-  
+  <img src="Images/Image%2047.PNG" alt="Image 47">
 </p>
 
 2. Open the **Reports** dropdown then **System Log**
@@ -676,14 +681,14 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 48
 <p align="center">
-  
+  <img src="Images/Image%2048.PNG" alt="Image 48">
 </p>
 
 5. Review the event from the attribute changes. The log should show two new membership changes, with **Okta System** as the actor for one and **Ryan Kennon** as the other actor:
 
 # Image 49
 <p align="center">
-  
+  <img src="Images/Image%2049.PNG" alt="Image 49">
 </p>
 
 ### Rule Deactivation and Reactivation
@@ -693,7 +698,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 50
 <p align="center">
-  
+  <img src="Images/Image%2050.PNG" alt="Image 50">
 </p>
 
 3. Open the **All** tab then select **KT-Managers**
@@ -701,7 +706,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 51
 <p align="center">
-  
+  <img src="Images/Image%2051.PNG" alt="Image 51">
 </p>
 
 5. Open the **Directory** dropdown then **People**
@@ -710,14 +715,14 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 52
 <p align="center">
-  
+  <img src="Images/Image%2052.PNG" alt="Image 52">
 </p>
 
 8. Check **Leo's Group** tab and confirm both **KT-Sales** and **KT-Managers** appear
 
 # Image 53
 <p align="center">
-  
+  <img src="Images/Image%2053.PNG" alt="Image 53">
 </p>
 
 9. Under the **Directory** dropdown select **Groups** then open the **Rules** tab
@@ -725,7 +730,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 54
 <p align="center">
-  
+  <img src="Images/Image%2054.PNG" alt="Image 54">
 </p>
 
 ### Verify Reactivation Reevaluates Member
@@ -735,7 +740,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 55
 <p align="center">
-  
+  <img src="Images/Image%2055.PNG" alt="Image 55">
 </p>
 
 3. Open the **Reports** dropdown then **System Log**
@@ -745,14 +750,14 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 # Image 56
 <p align="center">
-  
+  <img src="Images/Image%2056.PNG" alt="Image 56">
 </p>
 
 6. Review the event from the attribute changes. The log should show two new membership changes, with **Ryan Kennon** as the actor:
 
 # Image 57
 <p align="center">
-  
+  <img src="Images/Image%2057.PNG" alt="Image 57">
 </p>
 
 ---
@@ -768,7 +773,7 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 
 # Image 58
 <p align="center">
-  
+  <img src="Images/Image%2058.PNG" alt="Image 58">
 </p>
 
 3. Open the **All** tab select **KT-Managers**
@@ -776,14 +781,14 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 
 # Image 59
 <p align="center">
-  
+  <img src="Images/Image%2059.PNG" alt="Image 59">
 </p>
 
 5. Delete all the **Group Rules** we created in this lab
 
 # Image 60
 <p align="center">
-  
+  <img src="Images/Image%2060.PNG" alt="Image 60">
 </p>
 
 ### Deactivate and Delete the Test Users
@@ -793,7 +798,7 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 
 # Image 61
 <p align="center">
-  
+  <img src="Images/Image%2061.PNG" alt="Image 61">
 </p>
 
 ### Deactivate and Delete the Bookmark Apps
@@ -804,14 +809,14 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 
 # Image 62
 <p align="center">
-  
+  <img src="Images/Image%2062.PNG" alt="Image 62">
 </p>
 
 4. Delete all the **Applications** we created in this lab
 
 # Image 62.5
 <p align="center">
-  
+  <img src="Images/Image%2062.5.PNG" alt="Image 62.5">
 </p>
 
 ### Delete the Groups
@@ -821,14 +826,14 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 
 # Image 63
 <p align="center">
-  
+  <img src="Images/Image%2063.PNG" alt="Image 63">
 </p>
 
 3. Delete all the **Groups** we created in this lab
 
 # Image 64
 <p align="center">
-  
+  <img src="Images/Image%2064.PNG" alt="Image 64">
 </p>
 
 ### Remove the Custom Attributes
@@ -838,7 +843,7 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 
 # Image 65
 <p align="center">
-  
+  <img src="Images/Image%2065.PNG" alt="Image 65">
 </p>
 
 ---
