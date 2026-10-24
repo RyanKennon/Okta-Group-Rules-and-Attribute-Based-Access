@@ -118,7 +118,7 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 ### Create the Groups
 
 1. In the **Directory** dropdown select **Groups** then **Add Group**
-2. Create a group with the following information then **Save**:
+2. Create a group with the following information then **Save:**
 
    - **Name:** KT-Engineering
    - **Description:** Engineering department access
@@ -129,19 +129,19 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 3. Create more groups with the following information:
 
-   - **First Group**
+   - **KT-Sales**
      - **Name:** KT-Sales
      - **Description:** Sales department access
 
-   - **Second Group**
+   - **KT-Managers**
      - **Name:** KT-Managers
      - **Description:** Sales managers access
 
-   - **Third Group**
+   - **KT-Contractors**
      - **Name:** KT-Contractors
      - **Description:** Contractor access
 
-   - **Fourth Group**
+   - **KT-Remote**
      - **Name:** KT-Remote
      - **Description:** Remote workers access
 
@@ -163,19 +163,19 @@ Five groups are created to represent access, and each one is assigned a Bookmark
 
 4. Create app integrations for the other four apps using the following information:
 
-   - **First Application**
+   - **Sales CRM**
      - **Application Label:** Sales CRM
      - **URL:** https://example.com/sales
 
-   - **Second Application**
+   - **Manager Reports**
      - **Application Label:** Manager Reports
      - **URL:** https://example.com/reports
 
-   - **Third Application**
+   - **Contractor Portal**
      - **Application Label:** Contractor Portal
      - **URL:** https://example.com/contractors
 
-   - **Fourth Application**
+   - **Remote Access Portal**
      - **Application Label:** Remote Access Portal
      - **URL:** https://example.com/remote
 
@@ -251,7 +251,7 @@ Four test users are created and given a mix of attribute values. Each user is se
 
 3. Create 3 more people with the following information:
 
-   - **First Person**
+   - **Dana Brooks**
      - **User Type:** User
      - **First Name:** Dana
      - **Last Name:** Brooks
@@ -260,7 +260,7 @@ Four test users are created and given a mix of attribute values. Each user is se
      - **Password:** \<Create a Password\>
      - **User Must Change Password on First Login:** Uncheck
 
-   - **Second Person**
+   - **Leo Tran**
      - **User Type:** User
      - **First Name:** Leo
      - **Last Name:** Tran
@@ -269,7 +269,7 @@ Four test users are created and given a mix of attribute values. Each user is se
      - **Password:** \<Create a Password\>
      - **User Must Change Password on First Login:** Uncheck
 
-   - **Third Person**
+   - **Priya Shah**
      - **User Type:** User
      - **First Name:** Priya
      - **Last Name:** Shah
@@ -596,7 +596,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
   <img src="Images/Image%2043.PNG" alt="Image 43">
 </p>
 
-5. Review the newest event. The log should show Marcus Hale added to KT-Engineering with **Ryan Kennon** as the actor, and no removal event after the title change
+5. Review the newest event. The log should show Marcus Hale added to KT-Engineering with **your admin account** as the actor, and no removal event after the title change
 
 <p align="center">
   <img src="Images/Image%2044.PNG" alt="Image 44">
@@ -636,7 +636,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
   <img src="Images/Image%2048.PNG" alt="Image 48">
 </p>
 
-5. Review the two newest events. The log should show Priya Shah removed from KT-Remote with **Ryan Kennon** as the actor, and Priya added to the rule’s exclusion list with **Okta System** as the actor
+5. Review the two newest events. The log should show Priya Shah removed from KT-Remote with **your admin account** as the actor, and Priya added to the rule’s exclusion list with **Okta System** as the actor
 
 <p align="center">
   <img src="Images/Image%2049.PNG" alt="Image 49">
@@ -697,7 +697,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
   <img src="Images/Image%2056.PNG" alt="Image 56">
 </p>
 
-6. Review the two newest events. The log should show the KT-Managers by Title rule triggered and Leo Tran removed from KT-Managers, both with **Ryan Kennon** as the actor since activating a rule is an admin action
+6. Review the two newest events. The log should show the KT-Managers by Title rule triggered and Leo Tran removed from KT-Managers, both with **your admin account** as the actor since activating a rule is an admin action
 
 <p align="center">
   <img src="Images/Image%2057.PNG" alt="Image 57">
@@ -725,7 +725,7 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
   <img src="Images/Image%2059.PNG" alt="Image 59">
 </p>
 
-5. Delete all the **Group Rules** we created in this lab
+5. Delete all the **Group Rules** created in this lab
 
 <p align="center">
   <img src="Images/Image%2060.PNG" alt="Image 60">
@@ -750,7 +750,7 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
   <img src="Images/Image%2062.PNG" alt="Image 62">
 </p>
 
-4. Delete all the **Applications** we created in this lab
+4. Delete all the **Applications** created in this lab
 
 <p align="center">
   <img src="Images/Image%2062.5.PNG" alt="Image 62.5">
@@ -765,7 +765,7 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
   <img src="Images/Image%2063.PNG" alt="Image 63">
 </p>
 
-3. Delete all the **Groups** we created in this lab
+3. Delete all the **Groups** created in this lab
 
 <p align="center">
   <img src="Images/Image%2064.PNG" alt="Image 64">
