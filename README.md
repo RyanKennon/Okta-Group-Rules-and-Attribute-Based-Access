@@ -2,7 +2,7 @@
   <img src="Images/Header.png" alt="Okta Group Rules and Attribute Based Access">
 </p>
 
-# Okta Group Rules and Attribute Based Access
+# Okta Group Rules & Attribute Based Access
 
 This lab builds attribute based access control in Okta for Kennon Technologies. Custom profile attributes and group rules place users into groups automatically, and each group grants an app, so updating a user's profile changes their access without anyone editing group membership. The lab also tests how rules handle manual group changes and rule deactivation, and traces every access change in the System Log.
 
@@ -74,7 +74,7 @@ Two custom attributes are added to the default user profile to track employment 
    - **Attribute Member 2**
      - **Display Name:** Contractor
      - **Value:** Contractor
-     - **User Permission:** Read Only
+   - **User Permission:** Read Only
   
 <p align="center">
   <img src="Images/Image%201.PNG" alt="Image 1">
@@ -95,7 +95,7 @@ Two custom attributes are added to the default user profile to track employment 
    - **Attribute Member 2**
      - **Display Name:** Remote
      - **Value:** Remote
-     - **User Permission:** Read Only
+   - **User Permission:** Read Only
     
 <p align="center">
   <img src="Images/Image%202.PNG" alt="Image 2">
@@ -242,7 +242,7 @@ Four test users are created and given a mix of attribute values. Each user is se
    - **Last Name:** Hale
    - **Username:** marcus.hale@kennon.tech
    - **Primary Email:** marcus.hale@kennon.tech
-   - **Password:** \Create a Password\
+   - **Password:** \<Create a Password\>
    - **User Must Change Password on First Login:** Uncheck
 
 <p align="center">
@@ -257,7 +257,7 @@ Four test users are created and given a mix of attribute values. Each user is se
      - **Last Name:** Brooks
      - **Username:** dana.brooks@kennon.tech
      - **Primary Email:** dana.brooks@kennon.tech
-     - **Password:** \Create a Password\
+     - **Password:** \<Create a Password\>
      - **User Must Change Password on First Login:** Uncheck
 
    - **Second Person**
@@ -266,7 +266,7 @@ Four test users are created and given a mix of attribute values. Each user is se
      - **Last Name:** Tran
      - **Username:** leo.tran@kennon.tech
      - **Primary Email:** leo.tran@kennon.tech
-     - **Password:** \Create a Password\
+     - **Password:** \<Create a Password\>
      - **User Must Change Password on First Login:** Uncheck
 
    - **Third Person**
@@ -275,7 +275,7 @@ Four test users are created and given a mix of attribute values. Each user is se
      - **Last Name:** Shah
      - **Username:** priya.shah@kennon.tech
      - **Primary Email:** priya.shah@kennon.tech
-     - **Password:** \Create a Password\
+     - **Password:** \<Create a Password\>
      - **User Must Change Password on First Login:** Uncheck
 
 <p align="center">
@@ -539,7 +539,7 @@ User attributes are changed to simulate department moves, employment changes, an
 
 1. In the **Okta Administrator Console** open the **Reports** dropdown then **System Log**
 2. Set the time range to cover today's changes
-3. Select **Advanced Filters** then enter the following filter then **Apply Filter**
+3. Enter the following filter in the **Search** box then click the **Search** icon:
    `eventType sw "group.user_membership"`
 
 <p align="center">
@@ -589,14 +589,14 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 2. Open the **Reports** dropdown then **System Log**
 3. Set the time range to cover today's changes
-4. Select **Advanced Filters** then enter the following filter then **Apply Filter**
+4. Enter the following filter in the **Search** box then click the **Search** icon:
     `eventType sw "group.user_membership"`
 
 <p align="center">
   <img src="Images/Image%2043.PNG" alt="Image 43">
 </p>
 
-5. Review the newest event. The log should show Marcus Hale added to KT-Engineering with Ryan Kennon as the actor, and no removal event after the title change
+5. Review the newest event. The log should show Marcus Hale added to KT-Engineering with **Ryan Kennon** as the actor, and no removal event after the title change
 
 <p align="center">
   <img src="Images/Image%2044.PNG" alt="Image 44">
@@ -621,7 +621,7 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 ### Verify the Rule Exclusion
 
-1. Open Priya’s Groups tab and confirm KT-Engineering appears and KT-Remote did not come back
+1. Open **Priya’s Groups** tab and confirm **KT-Engineering** appears and **KT-Remote** did not come back
 
 <p align="center">
   <img src="Images/Image%2047.PNG" alt="Image 47">
@@ -629,14 +629,14 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 2. Open the **Reports** dropdown then **System Log**
 3. Set the time range to cover today's changes
-4. Select **Advanced Filters** then enter the following filter then **Apply Filter**
+4. Enter the following filter in the **Search** box then click the **Search** icon:
     `eventType sw "group.user_membership"`
 
 <p align="center">
   <img src="Images/Image%2048.PNG" alt="Image 48">
 </p>
 
-5. Review the two newest events. The log should show Priya Shah removed from KT-Remote with Ryan Kennon as the actor, and Priya added to the rule’s exclusion list with Okta System as the actor
+5. Review the two newest events. The log should show Priya Shah removed from KT-Remote with **Ryan Kennon** as the actor, and Priya added to the rule’s exclusion list with **Okta System** as the actor
 
 <p align="center">
   <img src="Images/Image%2049.PNG" alt="Image 49">
@@ -690,14 +690,14 @@ This phase tests how group rules treat manual group changes and rule deactivatio
 
 3. Open the **Reports** dropdown then **System Log**
 4. Set the time range to cover today's changes
-5. Enter the following filter in the Search box then click the Search icon:
+5. Enter the following filter in the **Search** box then click the **Search** icon:
     `eventType sw "group.user_membership"`
 
 <p align="center">
   <img src="Images/Image%2056.PNG" alt="Image 56">
 </p>
 
-6. Review the two newest events. The log should show the KT-Managers by Title rule triggered and Leo Tran removed from KT-Managers, both with Ryan Kennon as the actor since activating a rule is an admin action
+6. Review the two newest events. The log should show the KT-Managers by Title rule triggered and Leo Tran removed from KT-Managers, both with **Ryan Kennon** as the actor since activating a rule is an admin action
 
 <p align="center">
   <img src="Images/Image%2057.PNG" alt="Image 57">
@@ -712,7 +712,7 @@ All lab objects are removed in reverse order of creation. Group rules go first, 
 ### Deactivate and Delete the Group Rules
 
 1. Under the **Directory** dropdown select **Groups** then open the **Rules** tab
-2. Open the **Actions** dropdown next to **KT-Managers by Title** then select **Deactivate**
+2. Open the **Actions** dropdown next to **KT-Managers by Title** then select **Deactivate** then **Delete**
 
 <p align="center">
   <img src="Images/Image%2058.PNG" alt="Image 58">
